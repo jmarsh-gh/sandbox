@@ -1,0 +1,450 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"text",
+				"textArrayA"
+			],
+			[
+				"tex",
+				"textArrayA"
+			],
+			[
+				"h",
+				"holdString"
+			],
+			[
+				"my",
+				"myRegExp"
+			],
+			[
+				"curr",
+				"currentArrayIndex"
+			],
+			[
+				"ar",
+				"argumentThree"
+			],
+			[
+				"initial",
+				"initialArray"
+			],
+			[
+				"array",
+				"arrayArgs"
+			],
+			[
+				"a",
+				"arrayArgs"
+			],
+			[
+				"str",
+				"str"
+			],
+			[
+				"Java",
+				"Javascript"
+			],
+			[
+				"fix",
+				"fixNumber"
+			],
+			[
+				"zeros",
+				"zerosReq"
+			],
+			[
+				"zero",
+				"zerosReq"
+			],
+			[
+				"zer",
+				"zerosReq"
+			],
+			[
+				"fi",
+				"fixNumber"
+			],
+			[
+				"decimal",
+				"decimalPlaces"
+			],
+			[
+				"date",
+				"dateTwelveMonths"
+			],
+			[
+				"b",
+				"bookId"
+			],
+			[
+				"f",
+				"film"
+			],
+			[
+				"concat",
+				"concatArray"
+			],
+			[
+				"for",
+				"form1"
+			],
+			[
+				"fac",
+				"factorialNumber"
+			],
+			[
+				"loo",
+				"loopCounter"
+			],
+			[
+				"Age",
+				"Age2"
+			],
+			[
+				"p",
+				"personnel"
+			],
+			[
+				"de",
+				"degCent"
+			],
+			[
+				"deg",
+				"degFahren"
+			],
+			[
+				"m",
+				"myOtherVariable"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"tabl",
+				"table-bordered"
+			],
+			[
+				"cl",
+				"class\tAttr"
+			],
+			[
+				"tab",
+				"table\tTag"
+			],
+			[
+				"c",
+				"color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "mess around2.htm",
+			"settings":
+			{
+				"buffer_size": 2985,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 416.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/jmarsh/Dropbox/github/jmarsh-gh.github.io/logic.js",
+		"/home/jmarsh/Dropbox/github/jmarsh-gh.github.io/style.css",
+		"/home/jmarsh/Dropbox/github/jmarsh-gh.github.io/index.html",
+		"/D/google_drive/Github/init_test/code.js",
+		"/D/google_drive/Github/init_test/style.css",
+		"/D/google_drive/github/init_test/index.html",
+		"/C/Users/schrobot/.bashrc",
+		"/C/Users/schrobot/Dropbox/VS/Github/init_test/index.html",
+		"/C/Users/schrobot/Dropbox/VS/Github/FreeCodeCamp.wiki/README.md",
+		"/C/Users/schrobot/Dropbox/VS/github/init_test/index.html",
+		"/C/Users/schrobot/dropbox/vs/test_project/index.html",
+		"/C/Users/schrobot/dropbox/vs/github_test/jmarsh-gh.github.io/index.html",
+		"/C/Users/schrobot/Dropbox/VS/Countdown/logic.js",
+		"/C/Users/schrobot/Dropbox/VS/Countdown/style.css",
+		"/C/Users/schrobot/Dropbox/VS/Countdown/countdown_final.htm",
+		"/C/Users/schrobot/Dropbox/VS/Github_Test/jmarsh-gh.github.io/jmarsh-gh.github.io/index.html",
+		"/C/Users/schrobot/Dropbox/VS/Github_Test/jmarsh-gh.github.io/jmarsh-gh.github.io/logic.js",
+		"/C/Users/schrobot/Dropbox/VS/Countdown/words.js",
+		"/C/Users/schrobot/Dropbox/VS/Countdown/mess_arround.htm",
+		"/C/Users/schrobot/Dropbox/VS/Projects/FCC Weather/weather_test.htm",
+		"/C/Users/schrobot/Dropbox/VS/Github_Test/jmarsh-gh.github.io/index.html",
+		"/C/Users/schrobot/Dropbox/VS/Tribute - Sgt Johnson/main_1.html",
+		"/C/Users/schrobot/Desktop/jmarsh-gh.github.io/README.md",
+		"/C/Users/schrobot/Dropbox/VS/Countdown/words_JSON_test.json",
+		"/C/Users/schrobot/Dropbox/VS/Countdown/logic_test.js",
+		"/C/Users/schrobot/Dropbox/VS/Projects/weather_test.htm",
+		"/C/Users/schrobot/Dropbox/VS/Countdown/logic_words.js",
+		"/C/Users/schrobot/Dropbox/VS/Algorithms/FCC Basic/3 Check for Palindromes.htm",
+		"/C/Users/schrobot/Dropbox/VS/Algorithms/FCC Basic/16 Caesars Cipher.htm",
+		"/C/Users/schrobot/Dropbox/VS/Algorithms/FCC Basic/7 Confirm the ending.htm",
+		"/F/Media/Downloads/english-words.json",
+		"/C/Users/schrobot/Dropbox/VS/Countdown/en2_regExp_test1",
+		"/C/Users/schrobot/Dropbox/VS/Countdown/en2_test.htm",
+		"/C/Users/schrobot/Dropbox/VS/Countdown/en_modified.txt",
+		"/C/Users/schrobot/Dropbox/VS/Algorithms/FCC Basic/12 Mutations.htm",
+		"/C/Users/schrobot/Dropbox/VS/Algorithms/FCC Basic/5 Title Case a Sentence.htm",
+		"/C/Users/schrobot/Dropbox/VS/Algorithms/FCC Basic/2 Factorialise a Number.htm",
+		"/C/Users/schrobot/Dropbox/VS/Algorithms/FCC Basic/1 Reverse a string.htm",
+		"/C/Users/schrobot/Dropbox/VS/Beginning Javascript/js/mess around2.htm",
+		"/C/Users/schrobot/Dropbox/VS/Algorithms/Cpaitalize.htm",
+		"/C/Users/schrobot/Dropbox/VS/Algorithms/factorial.htm",
+		"/C/Users/schrobot/Dropbox/VS/Beginning Javascript/js/Anki_back.htm",
+		"/C/Users/schrobot/Dropbox/VS/Algorithms/Fib Recursion.htm",
+		"/D/OneDrive/Coding/Books/Javascript/Beginning Javascript - Code Examples/Ch05 Code/ch5_examp8.htm",
+		"/D/OneDrive/Coding/Books/Javascript/Beginning Javascript - Code Examples/Ch05 Code/ch5_examp7.htm",
+		"/C/Users/schrobot/Dropbox/VS/FCC Basic Algorithm/Palindrome.htm",
+		"/C/Users/schrobot/Dropbox/VS/Beginning Javascript/js/calcfactorial.htm",
+		"/C/Users/schrobot/Dropbox/VS/Beginning Javascript/js/mess around.htm",
+		"/F/Media/Downloads/en.txt",
+		"/D/OneDrive/Coding/Books/Javascript/Beginning Javascript - Code Examples/Ch05 Code/ch5_examp5.htm",
+		"/D/OneDrive/Coding/Books/Javascript/Beginning Javascript - Code Examples/Ch05 Code/ch5_examp2.htm",
+		"/D/OneDrive/Coding/Books/Javascript/Beginning Javascript - Code Examples/Ch05 Code/ch5_examp3.htm",
+		"/F/Media/Downloads/Beginning Javascript - Code Examples/Ch03 Code/ch3_q2.htm",
+		"/F/Media/Downloads/Beginning Javascript - Code Examples/Ch03 Code/ch3_examp5.htm",
+		"/C/Users/schrobot/Dropbox/VS/Beginning Javascript/js/calcfactorialtopframe.htm",
+		"/F/Media/Downloads/525937 Ch04 Code/Ch04 Code/debug_timestable.htm",
+		"/C/Users/schrobot/Dropbox/VS/Beginning Javascript/js/ch3_examp3.htm",
+		"/C/Users/schrobot/Dropbox/VS/FCC Basic Algorithm/caesarsCipher.js",
+		"/C/Users/schrobot/Dropbox/VS/FCC Basic Algorithm/seekanddestroy.js",
+		"/C/Users/schrobot/Dropbox/VS/Tribute - Sgt Johnson/Index (3).html",
+		"/C/Users/schrobot/Dropbox/VS/Tribute - Sgt Johnson/Practice_Carousel.html",
+		"/C/Users/schrobot/Dropbox/VS/BS3_Pluralsight/Practice_Carousel.html",
+		"/C/Users/schrobot/Dropbox/VS/BS3_Pluralsight/Practice.html",
+		"/C/Users/schrobot/Dropbox/VS/BS3_Pluralsight/js/site.js",
+		"/C/Users/schrobot/Dropbox/VS/BS3_Pluralsight/Practice_w14_03.html",
+		"/C/Users/schrobot/Dropbox/VS/BS3_Pluralsight/Shortcuts.html",
+		"/C/Users/schrobot/Dropbox/VS/BS3_Pluralsight/css/site.css",
+		"/C/Users/schrobot/Dropbox/VS/BS3_Pluralsight/Index (3).html",
+		"/C/Users/schrobot/Dropbox/VS/BS3_Pluralsight/Contact (3).html",
+		"/C/Users/schrobot/Dropbox/VS/BS3_Pluralsight/About (3).html",
+		"/C/Users/schrobot/Dropbox/VS/BS3_Pluralsight/Practice_DO_NOT_EDIT.html",
+		"/C/Users/schrobot/Dropbox/VS/BS3_Pluralsight/Index_before_M5.html",
+		"/C/Users/schrobot/Dropbox/VS/BS3_Pluralsight/Index.html",
+		"/C/Users/schrobot/Dropbox/VS/BS3_Pluralsight/Contact (2).html",
+		"/C/Users/schrobot/Dropbox/VS/BS3_Pluralsight/Index (2).html",
+		"/C/Users/schrobot/Dropbox/VS/BS3_Pluralsight/About.html",
+		"/C/Users/schrobot/Dropbox/VS/BS3_Pluralsight/About (2).html",
+		"/C/Users/schrobot/Dropbox/VS/BS3_Pluralsight/js/bootstrap.min.js",
+		"/C/Users/schrobot/Dropbox/VS/BS3_Pluralsight/images/lebowski-1.jpg",
+		"/C/Users/schrobot/Dropbox/VS/BS3_Pluralsight/Contact.html",
+		"/C/Users/schrobot/Dropbox/VS/BS3_Pluralsight/Contact2.html",
+		"/C/Users/schrobot/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/schrobot/Dropbox/VS/BS3_Pluralsight/About2.html"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"color",
+			"colo",
+			"colour",
+			"color",
+			"crazcake",
+			"50",
+			"primary",
+			"3",
+			"href",
+			"Buscemi",
+			"Two",
+			"list",
+			"class",
+			"Character",
+			"button",
+			"item",
+			"                <li class=\"list-group-item\">Two</li>\n",
+			"item",
+			"class",
+			"                        <li class=\"nav\"><a href=\"about.html\">About</a></li>\n",
+			"li",
+			"nav",
+			"previous",
+			"open tab",
+			"tab"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "mess around2.htm",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2985,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "sandbox.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"logic.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 170.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

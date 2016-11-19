@@ -1,0 +1,148 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Mess Around 2</title>
+</head>
+<body>
+
+<script language="Javascript" type="text/javascript">
+
+
+
+var eightLetterWords = ["somewhat", "crabcake", "cartyre"];
+
+var userLetters = ["c", "r", "a", "b"];
+
+var holdString = eightLetterWords[1]; //this needs to be assigned outside the function otherwise it keeps resetting.
+
+var bool = userLetters.every(cbFunc);
+
+function cbFunc(value){
+	for(var x = 0; x < holdString.length; x++){
+		alert(holdString[x]);
+		if(value === holdString[x]){
+			//remove holdString[x] from the string so it can only be matched once
+			//otherwise an array of the same letter would match repeatedly	
+			holdString = holdString.replace(holdString[x],'');
+			alert(holdString);
+			return true;
+		} 
+	}
+	return false;
+}
+
+
+
+
+
+document.write(bool);
+
+/*
+$(document).ready(function(){
+   // jQuery methods go here...
+});
+
+
+$(selector).action()
+
+
+function destroyer(arr) {
+	var argumentOne = arguments[0]
+	var argumentTwo = arguments[1]
+	var argumentThree = arguments[2]
+
+	alert(argumentOne);
+	//returns [1,2,3,1,2,3]
+	alert(argumentTwo);
+	//returns 2
+	alert(argumentThree);
+	//returns 3
+}
+destroyer([1, 2, 3, 1, 2, 3], 2, 3);
+
+
+var str = "abcde";
+str = str.slice(1,0);
+alert(str);
+alert(str.length);
+//returns "" (empty string)
+//returns 0
+
+var str = "abcde";
+str = str.substring(1,0);
+alert(str);
+alert(str.length);
+//returns a
+//returns 1
+
+
+var x = Boolean("Hi");
+alert(x);
+//returns true
+
+var x = Boolean(0);
+alert(x);
+//returns false
+
+var str = "abcde";
+str = str.slice(1,-1);
+alert(str);
+alert(str.length);
+//returns "bcd" 
+//returns 3
+
+var str = "abcde";
+str = str.substring(1,-1);
+alert(str);
+alert(str.length);
+//returns a
+//returns 1
+*/
+
+
+
+
+/*
+var myString = "The years were 2001, 2002, 2003 & 2004. 2004 was the best."
+var myRegExp = /\b\d{4}\b/g;
+var resultsArray = myString.match(myRegExp);
+alert(resultsArray);
+
+var myString = "Script, JavaScript, VBScript & madeupScript";
+var myRegExp = /\b(Java|VB)?Script\b/gi;
+myString = myString.replace(myRegExp, "ERROR");
+alert(myString);
+
+var myString = "007,001,007,001,002,003,002,004,002,004";
+var myRegExp = /(007,001),\1/g;
+myString = myString.replace(myRegExp, "ERROR");
+alert(myString);
+
+var myString = "'Hello World' said Mr. O'Connerly. He then said 'My Name is O'Connerly, yes that's right, O'Connerly'.";
+var myRegExp = /'\b/g;
+document.write(myString.replace(myRegExp, '"'));
+
+var myString = "Javascript is not the same as Java. Java Java Java";
+var myRegExp = /\bJava\b/gi;
+alert(myString.search(myRegExp));
+
+/*
+var myString = "Paul, Paula, Pauline, paul, Paul";
+//var myRegExp = /\b\w\w\w\w\b/gi;
+document.write(/\b\w\w\w\w\b/gi.test(myString));
+
+var myString = "Hi world! I said HI world!"
+var myRegExp = /^Hi\b/gi;
+document.write(myString = myString.replace(myRegExp, "Hello"));
+
+*/
+
+
+
+
+
+</script>
+</body>
+</html>
