@@ -175,7 +175,7 @@
 			"file": "tutorial_files/udemy_bootcamp/dom.htm",
 			"settings":
 			{
-				"buffer_size": 1542,
+				"buffer_size": 1545,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -457,15 +457,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1542,
+						"buffer_size": 1545,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1535,
-								1535
+								935,
+								935
 							]
 						],
 						"settings":

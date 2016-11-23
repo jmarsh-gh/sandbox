@@ -3,12 +3,20 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>Dom/title>
+    <title>Dom </title>
+    <style type="text/css">
+    	.big {
+    		font-size: 100px;
+    		color: orange;
+    		border: 5px solid red;
+    	}
+    </style>
 </head>
 <body>
 
 <script language="Javascript" type="text/javascript">
 
+/*
 document.getElementById('');
 document.getElementsByTagName('');
 document.getElementsByClassName('');
@@ -27,8 +35,11 @@ document.querySelector('p');
 //or
 document.getElementsByClassName('special')[0];
 document.getElementsByTagName('p')[0];
+*/
 
 
+//var tag = document.querySelector("h1");
+//tag.style.color = "blue";
 </script>
 
 <!--<h1>Hello</h1>
@@ -46,8 +57,14 @@ document.getElementsByTagName('p')[0];
 	<p>Hi Again</p>
 	<p id="last">Goodbye Again</p>
 
+<script type="text/javascript">
+
+	var tag = document.querySelector("h1");
+	tag.classList.add("big"); //adds .big to h1
+
+	document.querySelector("h1").textContent = ("I changed this");
 
 
-
+</script>
 </body>
 </html>
