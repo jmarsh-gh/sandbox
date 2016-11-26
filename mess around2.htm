@@ -25,6 +25,7 @@ var userLetters = ["c", "r", "a", "b"];
 var holdString = eightLetterWords[1]; //this needs to be assigned outside the function otherwise it keeps resetting.
 
 var bool = userLetters.every(cbFunc);
+*/
 
 function cbFunc(value){
 	for(var x = 0; x < holdString.length; x++){
@@ -40,7 +41,7 @@ function cbFunc(value){
 	return false;
 }
 document.write(bool);
-*/
+
 
 /*
 $(document).ready(function(){
@@ -50,6 +51,7 @@ $(document).ready(function(){
 
 $(selector).action()
 
+*/
 
 function destroyer(arr) {
 	var argumentOne = arguments[0]
@@ -65,7 +67,7 @@ function destroyer(arr) {
 }
 destroyer([1, 2, 3, 1, 2, 3], 2, 3);
 
-
+/*
 var str = "abcde";
 str = str.slice(1,0);
 alert(str);

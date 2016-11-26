@@ -4,8 +4,20 @@
 		"selected_items":
 		[
 			[
-				"query",
-				"querySelector"
+				"getElements",
+				"getElementsByTagName"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"ge",
+				"getElementsByTagName"
+			],
+			[
+				"g",
+				"getElementsByClassName"
 			],
 			[
 				"text",
@@ -125,7 +137,7 @@
 			],
 			[
 				"di",
-				"div\tTag"
+				"div	Tag"
 			],
 			[
 				"tabl",
@@ -133,11 +145,11 @@
 			],
 			[
 				"cl",
-				"class\tAttr"
+				"class	Attr"
 			],
 			[
 				"tab",
-				"table\tTag"
+				"table	Tag"
 			],
 			[
 				"c",
@@ -148,18 +160,21 @@
 	"buffers":
 	[
 		{
-			"file": "mess around2.htm",
+			"file": "tutorial_files/udemy_bootcamp/dom.htm",
 			"settings":
 			{
-				"buffer_size": 2987,
+				"buffer_size": 1491,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "blank.htm",
+			"contents": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \n    \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n    <title>Mess Around 2</title>\n</head>\n<body>\n\n<script language=\"Javascript\" type=\"text/javascript\">\n\n/*\nvar eightLetterWords = [\"somewhat\", \"crabcake\", \"cartyre\"];\n\nvar userLetters = [\"c\", \"r\", \"a\", \"b\"];\n\nvar holdString = eightLetterWords[1]; //this needs to be assigned outside the function otherwise it keeps resetting.\n\nvar bool = userLetters.every(cbFunc);\n*/\n\nfunction cbFunc(value){\n	for(var x = 0; x < holdString.length; x++){\n		alert(holdString[x]);\n		if(value === holdString[x]){\n			//remove holdString[x] from the string so it can only be matched once\n			//otherwise an array of the same letter would match repeatedly	\n			holdString = holdString.replace(holdString[x],'');\n			alert(holdString);\n			return true;\n		} \n	}\n	return false;\n}\ndocument.write(bool);\n\n\n/*\n$(document).ready(function(){\n   // jQuery methods go here...\n});\n\n\n$(selector).action()\n\n*/\n\nfunction destroyer(arr) {\n	var argumentOne = arguments[0]\n	var argumentTwo = arguments[1]\n	var argumentThree = arguments[2]\n\n	alert(argumentOne);\n	//returns [1,2,3,1,2,3]\n	alert(argumentTwo);\n	//returns 2\n	alert(argumentThree);\n	//returns 3\n}\ndestroyer([1, 2, 3, 1, 2, 3], 2, 3);\n\n/*\nvar str = \"abcde\";\nstr = str.slice(1,0);\nalert(str);\nalert(str.length);\n//returns \"\" (empty string)\n//returns 0\n\nvar str = \"abcde\";\nstr = str.substring(1,0);\nalert(str);\nalert(str.length);\n//returns a\n//returns 1\n\n\nvar x = Boolean(\"Hi\");\nalert(x);\n//returns true\n\nvar x = Boolean(0);\nalert(x);\n//returns false\n\nvar str = \"abcde\";\nstr = str.slice(1,-1);\nalert(str);\nalert(str.length);\n//returns \"bcd\" \n//returns 3\n\nvar str = \"abcde\";\nstr = str.substring(1,-1);\nalert(str);\nalert(str.length);\n//returns a\n//returns 1\n*/\n\n/*\nvar myString = \"The years were 2001, 2002, 2003 & 2004. 2004 was the best.\"\nvar myRegExp = /\\b\\d{4}\\b/g;\nvar resultsArray = myString.match(myRegExp);\nalert(resultsArray);\n\nvar myString = \"Script, JavaScript, VBScript & madeupScript\";\nvar myRegExp = /\\b(Java|VB)?Script\\b/gi;\nmyString = myString.replace(myRegExp, \"ERROR\");\nalert(myString);\n\nvar myString = \"007,001,007,001,002,003,002,004,002,004\";\nvar myRegExp = /(007,001),\\1/g;\nmyString = myString.replace(myRegExp, \"ERROR\");\nalert(myString);\n\nvar myString = \"'Hello World' said Mr. O'Connerly. He then said 'My Name is O'Connerly, yes that's right, O'Connerly'.\";\nvar myRegExp = /'\\b/g;\ndocument.write(myString.replace(myRegExp, '\"'));\n\nvar myString = \"Javascript is not the same as Java. Java Java Java\";\nvar myRegExp = /\\bJava\\b/gi;\nalert(myString.search(myRegExp));\n\n/*\nvar myString = \"Paul, Paula, Pauline, paul, Paul\";\n//var myRegExp = /\\b\\w\\w\\w\\w\\b/gi;\ndocument.write(/\\b\\w\\w\\w\\w\\b/gi.test(myString));\n\nvar myString = \"Hi world! I said HI world!\"\nvar myRegExp = /^Hi\\b/gi;\ndocument.write(myString = myString.replace(myRegExp, \"Hello\"));\n\n*/\n\n\n\n</script>\n</body>\n</html>",
+			"file": "mess around2.htm",
+			"file_size": 3140,
+			"file_write_time": 131245343422028469,
 			"settings":
 			{
-				"buffer_size": 310,
+				"buffer_size": 2985,
 				"line_ending": "Windows"
 			}
 		},
@@ -172,11 +187,18 @@
 			}
 		},
 		{
-			"file": "tutorial_files/udemy_bootcamp/dom.htm",
+			"file": "sandbox.wiki/Home.md",
 			"settings":
 			{
-				"buffer_size": 1542,
-				"encoding": "UTF-8",
+				"buffer_size": 160,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "sandbox.wiki/Shortcuts.md",
+			"settings":
+			{
+				"buffer_size": 1184,
 				"line_ending": "Windows"
 			}
 		}
@@ -193,7 +215,7 @@
 		"selected_items":
 		[
 		],
-		"width": 416.0
+		"width": 392.0
 	},
 	"console":
 	{
@@ -213,12 +235,12 @@
 	},
 	"expanded_folders":
 	[
-		"/home/jmarsh/Dropbox/github/sandbox",
-		"/home/jmarsh/Dropbox/github/sandbox/sandbox.wiki"
 	],
 	"file_history":
 	[
-		"/home/jmarsh/Dropbox/github/sandbox/index.html",
+		"/C/Users/schrobot/Dropbox/VS/Algorithms/FCC Basic/1 Reverse a string.htm",
+		"/C/Users/schrobot/Dropbox/github/sandbox/sandbox.wiki/test.md",
+		"/F/Media/Downloads/selector-exercise.html",
 		"/home/jmarsh/Dropbox/github/sandbox/sandbox.wiki/test.md",
 		"/home/jmarsh/Dropbox/github/sandbox/sandbox.wiki/Home.md",
 		"/home/jmarsh/Dropbox/github/jmarsh-gh.github.io/logic.js",
@@ -258,7 +280,6 @@
 		"/C/Users/schrobot/Dropbox/VS/Algorithms/FCC Basic/12 Mutations.htm",
 		"/C/Users/schrobot/Dropbox/VS/Algorithms/FCC Basic/5 Title Case a Sentence.htm",
 		"/C/Users/schrobot/Dropbox/VS/Algorithms/FCC Basic/2 Factorialise a Number.htm",
-		"/C/Users/schrobot/Dropbox/VS/Algorithms/FCC Basic/1 Reverse a string.htm",
 		"/C/Users/schrobot/Dropbox/VS/Beginning Javascript/js/mess around2.htm",
 		"/C/Users/schrobot/Dropbox/VS/Algorithms/Cpaitalize.htm",
 		"/C/Users/schrobot/Dropbox/VS/Algorithms/factorial.htm",
@@ -321,6 +342,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"holdString",
 			"color",
 			"colo",
 			"colour",
@@ -363,24 +385,24 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "mess around2.htm",
+					"file": "tutorial_files/udemy_bootcamp/dom.htm",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2987,
+						"buffer_size": 1491,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1032,
+								1032
 							]
 						],
 						"settings":
@@ -392,35 +414,36 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "blank.htm",
+					"file": "mess around2.htm",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 310,
+						"buffer_size": 2985,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								885,
+								885
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 108.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -448,36 +471,72 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "tutorial_files/udemy_bootcamp/dom.htm",
+					"file": "sandbox.wiki/Home.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1542,
+						"buffer_size": 160,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1535,
-								1535
+								64,
+								64
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 408.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "sandbox.wiki/Shortcuts.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1184,
+						"regions":
+						{
+							"bookmarks":
+							{
+								"flags": 144,
+								"icon": "bookmark",
+								"regions":
+								[
+								],
+								"scope": "bookmarks"
+							}
+						},
+						"selection":
+						[
+							[
+								471,
+								471
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -532,8 +591,12 @@
 		"selected_items":
 		[
 			[
+				"shor",
+				"sandbox\\sandbox.wiki\\Shortcuts.md"
+			],
+			[
 				"",
-				"sandbox.wiki/Home.md"
+				"sandbox\\tutorial_files\\udemy_bootcamp\\dom.htm"
 			]
 		],
 		"width": 0.0
