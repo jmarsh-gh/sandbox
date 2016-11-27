@@ -5,8 +5,14 @@
 </head>
 <body>
 
+<h1>Welcome to DOM Events</h1>
 
-<script type="text/javascript" src=></script>
+<script type="text/javascript">
+	var h1 = document.querySelector("h1"); 
+	h1.addEventListener("click", function(){
+		h1.style.background = "orange";
+	});
+</script>
 
 </body>
 </html>
