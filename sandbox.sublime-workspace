@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"p2",
+				"p2Score"
+			],
+			[
+				"p1",
+				"p1Score"
+			],
+			[
 				"getElements",
 				"getElementsByTagName"
 			],
@@ -160,43 +168,35 @@
 	"buffers":
 	[
 		{
-			"file": "tutorial_files/udemy_bootcamp/dom_events.htm",
+			"file": "tutorial_files/udemy_bootcamp/score_keeper.html",
 			"settings":
 			{
-				"buffer_size": 142,
+				"buffer_size": 453,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "mess around2.htm",
+			"file": "tutorial_files/udemy_bootcamp/scorekeeper.js",
 			"settings":
 			{
-				"buffer_size": 2984,
+				"buffer_size": 1278,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "tutorial_files/udemy_bootcamp/dom.htm",
+			"file": "sandbox.wiki/Score Keeper.md",
 			"settings":
 			{
-				"buffer_size": 1491,
+				"buffer_size": 10937,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "sandbox.wiki/Shortcuts.md",
+			"file": "sandbox.wiki/_Sidebar.md",
 			"settings":
 			{
-				"buffer_size": 1370,
+				"buffer_size": 200,
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "sandbox.wiki/Github-Wiki-Guide.md",
-			"settings":
-			{
-				"buffer_size": 1989,
-				"line_ending": "Windows"
 			}
 		}
 	],
@@ -235,6 +235,16 @@
 	],
 	"file_history":
 	[
+		"/C/Users/schrobot/Dropbox/github/sandbox/tutorial_files/udemy_bootcamp/scorekeeper.css",
+		"/C/Users/schrobot/Dropbox/github/sandbox/sandbox.wiki/DOM-Events.md",
+		"/C/Users/schrobot/Dropbox/github/sandbox/sandbox.wiki/Github-Wiki-Guide.md",
+		"/F/Media/Downloads/Score-Keeper-2/ScoreKeeper/scorekeeper.js",
+		"/C/Users/schrobot/Dropbox/github/sandbox/tutorial_files/udemy_bootcamp/dom_events.htm",
+		"/F/Media/Downloads/Score-Keeper-2/ScoreKeeper/ScoreKeeper.html",
+		"/C/Users/schrobot/Dropbox/github/sandbox/sandbox.wiki/_Sidebar.md",
+		"/C/Users/schrobot/Dropbox/github/sandbox/tutorial_files/udemy_bootcamp/dom.htm",
+		"/C/Users/schrobot/Dropbox/github/sandbox/mess around2.htm",
+		"/C/Users/schrobot/Dropbox/github/sandbox/sandbox.wiki/Shortcuts.md",
 		"/C/Users/schrobot/Dropbox/github/sandbox/sandbox.wiki/DOM Events.md",
 		"/C/Users/schrobot/Dropbox/github/sandbox/sandbox.wiki/Home.md",
 		"/C/Users/schrobot/Dropbox/github/sandbox/index.html",
@@ -385,24 +395,24 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "tutorial_files/udemy_bootcamp/dom_events.htm",
+					"file": "tutorial_files/udemy_bootcamp/score_keeper.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 142,
+						"buffer_size": 453,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								62,
-								62
+								263,
+								263
 							]
 						],
 						"settings":
@@ -413,30 +423,29 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "mess around2.htm",
+					"file": "tutorial_files/udemy_bootcamp/scorekeeper.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2984,
+						"buffer_size": 1278,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								949,
-								547
+								1276,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -447,48 +456,19 @@
 				},
 				{
 					"buffer": 2,
-					"file": "tutorial_files/udemy_bootcamp/dom.htm",
+					"file": "sandbox.wiki/Score Keeper.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1491,
+						"buffer_size": 10937,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								600,
-								600
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "sandbox.wiki/Shortcuts.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1370,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
+								2100,
+								2100
 							]
 						],
 						"settings":
@@ -496,34 +476,32 @@
 							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 896.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "sandbox.wiki/Github-Wiki-Guide.md",
+					"buffer": 3,
+					"file": "sandbox.wiki/_Sidebar.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1989,
+						"buffer_size": 200,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								200,
+								200
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -584,12 +562,24 @@
 		"selected_items":
 		[
 			[
+				"dome",
+				"sandbox\\sandbox.wiki\\DOM-Events.md"
+			],
+			[
+				"side",
+				"sandbox\\sandbox.wiki\\_Sidebar.md"
+			],
+			[
 				"git",
-				"sandbox.wiki\\Github-Wiki-Guide.md"
+				"sandbox\\sandbox.wiki\\Github-Wiki-Guide.md"
+			],
+			[
+				"g",
+				"sandbox\\sandbox.wiki\\Github-Wiki-Guide.md"
 			],
 			[
 				"dom",
-				"sandbox.wiki\\DOM Events.md"
+				"sandbox.wiki\\DOM-Events.md"
 			],
 			[
 				"shor",
