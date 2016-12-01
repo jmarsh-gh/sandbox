@@ -13,3 +13,4 @@ for(var i = 0; i < lis.length; i++){
 		this.classList.toggle("done");
 	});
 }
+
