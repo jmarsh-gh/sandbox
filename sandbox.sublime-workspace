@@ -176,37 +176,37 @@
 	"buffers":
 	[
 		{
-			"file": "tutorial_files/udemy_bootcamp/todo.html",
+			"contents": "<!DOCTYPE html>\n<html>\n<head>\n	<title>Color Game</title>\n	<link rel=\"stylesheet\" type=\"text/css\" href=\"colorGame.css\">\n</head>\n<body>\n\n\n	<div class=\"class\"></div>\n	<div class=\"class\"></div>\n	<div class=\"class\"></div>\n	<div class=\"class\"></div>\n	<div class=\"class\"></div>\n	<div class=\"class\"></div>\n\n<script type=\"text/javascript\" src=\"colorGame.js\"></script>\n</body>\n</html>",
+			"file": "tutorial_files/udemy_bootcamp/color_game/colorGame.html",
+			"file_size": 224,
+			"file_write_time": 131250901891282212,
 			"settings":
 			{
-				"buffer_size": 281,
+				"buffer_size": 374,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "var lis = document.querySelectorAll(\"li\");\n\nfor(var i = 0; i < lis.length; i++){\n	lis[i].addEventListener(\"mouseover\", function(){\n		this.classList.add(\"selected\");\n	});\n\n	lis[i].addEventListener(\"mouseout\", function(){\n		this.classList.remove(\"selected\");\n	});\n\n	lis[i].addEventListener(\"click\", function(){\n		this.classList.toggle(\"done\");\n	});\n}\n\n",
-			"file": "tutorial_files/udemy_bootcamp/todo.js",
-			"file_size": 362,
-			"file_write_time": 131249702974125517,
+			"file": "tutorial_files/udemy_bootcamp/color_game/colorGame.js",
 			"settings":
 			{
-				"buffer_size": 350,
+				"buffer_size": 20,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "sandbox.wiki/DOM-Events.md",
+			"file": "tutorial_files/udemy_bootcamp/color_game/colorGame.css",
 			"settings":
 			{
-				"buffer_size": 5572,
-				"line_ending": "Unix"
+				"buffer_size": 27,
+				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "tutorial_files/udemy_bootcamp/todo.css",
+			"file": "sandbox.wiki/Projects/Color Game.md",
 			"settings":
 			{
-				"buffer_size": 86,
+				"buffer_size": 760,
 				"line_ending": "Windows"
 			}
 		},
@@ -254,12 +254,16 @@
 	],
 	"file_history":
 	[
+		"/C/Users/schrobot/Dropbox/github/sandbox/sandbox.wiki/Color Game.md",
+		"/C/Users/schrobot/Dropbox/github/sandbox/tutorial_files/udemy_bootcamp/todo.css",
+		"/C/Users/schrobot/Dropbox/github/sandbox/sandbox.wiki/DOM-Events.md",
+		"/C/Users/schrobot/Dropbox/github/sandbox/tutorial_files/udemy_bootcamp/todo.html",
+		"/C/Users/schrobot/Dropbox/github/sandbox/tutorial_files/udemy_bootcamp/todo.js",
 		"/C/Users/schrobot/Dropbox/github/sandbox/tutorial_files/udemy_bootcamp/scorekeeper.js",
 		"/C/Users/schrobot/Dropbox/github/sandbox/sandbox.wiki/Score Keeper.md",
 		"/C/Users/schrobot/Dropbox/github/sandbox/tutorial_files/udemy_bootcamp/score_keeper.html",
 		"/C/Users/schrobot/Dropbox/github/sandbox/sandbox.wiki/_Sidebar.md",
 		"/C/Users/schrobot/Dropbox/github/sandbox/tutorial_files/udemy_bootcamp/scorekeeper.css",
-		"/C/Users/schrobot/Dropbox/github/sandbox/sandbox.wiki/DOM-Events.md",
 		"/C/Users/schrobot/Dropbox/github/sandbox/sandbox.wiki/Github-Wiki-Guide.md",
 		"/F/Media/Downloads/Score-Keeper-2/ScoreKeeper/scorekeeper.js",
 		"/C/Users/schrobot/Dropbox/github/sandbox/tutorial_files/udemy_bootcamp/dom_events.htm",
@@ -417,53 +421,52 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "tutorial_files/udemy_bootcamp/todo.html",
+					"file": "tutorial_files/udemy_bootcamp/color_game/colorGame.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 281,
+						"buffer_size": 374,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								176,
-								176
+								297,
+								137
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "tutorial_files/udemy_bootcamp/todo.js",
+					"file": "tutorial_files/udemy_bootcamp/color_game/colorGame.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 350,
+						"buffer_size": 20,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								350,
-								350
+								20,
+								20
 							]
 						],
 						"settings":
@@ -474,53 +477,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "sandbox.wiki/DOM-Events.md",
+					"file": "tutorial_files/udemy_bootcamp/color_game/colorGame.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5572,
+						"buffer_size": 27,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4497,
-								4353
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2232.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "tutorial_files/udemy_bootcamp/todo.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 86,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								56,
-								0
+								25,
+								25
 							]
 						],
 						"settings":
@@ -532,6 +506,34 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "sandbox.wiki/Projects/Color Game.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 760,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -613,6 +615,14 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"colo",
+				"sandbox.wiki\\Projects\\Color Game.md"
+			],
+			[
+				"color",
+				"sandbox\\sandbox.wiki\\Color Game.md"
+			],
 			[
 				"sho",
 				"sandbox.wiki\\Shortcuts.md"
