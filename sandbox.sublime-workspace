@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"revers",
+				"reverseNames"
+			],
+			[
 				"col",
 				"color"
 			],
@@ -176,49 +180,37 @@
 	"buffers":
 	[
 		{
-			"contents": "<!DOCTYPE html>\n<html>\n<head>\n\t<title>Color Game</title>\n\t<link rel=\"stylesheet\" type=\"text/css\" href=\"colorGame.css\">\n</head>\n<body>\n\n<h1>The Great <span id=\"colorDisplay\">RGB</span> Color Game</h1>\n\n\t<div id=\"container\">\n\t\t<div class=\"square\"></div>\n\t\t<div class=\"square\"></div>\n\t\t<div class=\"square\"></div>\n\t\t<div class=\"square\"></div>\n\t\t<div class=\"square\"></div>\n\t\t<div class=\"square\"></div>\n\t</div>\n\n\t\n\n<script type=\"text/javascript\" src=\"colorGame.js\"></script>\n</body>\n</html>",
-			"file": "tutorial_files/udemy_bootcamp/color_game/colorGame.html",
-			"file_size": 502,
-			"file_write_time": 131253367173976512,
+			"file": "sandbox.wiki/js/Array Methods/Array.prototype.forEach().md",
 			"settings":
 			{
-				"buffer_size": 484,
+				"buffer_size": 3390,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "tutorial_files/udemy_bootcamp/color_game/colorGame.js",
+			"file": "mess around2.htm",
 			"settings":
 			{
-				"buffer_size": 766,
+				"buffer_size": 8423,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "sandbox.wiki/Projects/Color Game.md",
+			"file": "/C/Users/schrobot/Dropbox/github/chess_timer/index.html",
 			"settings":
 			{
-				"buffer_size": 5818,
+				"buffer_size": 727,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "# Wiki Tips\n\n[[Wiki Home Page|Home]]\n\nhttps://help.github.com/articles/adding-links-to-wikis/\n\nhttps://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code\n\nTo escape any code (markdown, js and so on) either use a tab or 4 spaces.\n\n### Add an image to wiki from Github repository (change sandbox when using different repo):\n\n    [[https://github.com/jmarsh-gh/sandbox/blob/master/img/img_name.png|alt=error]]\n\n# Test_title\n\n### To add syntax highlighted code:\n\n    ```javascript\n    function cbFunc(value){\n\tfor(var x = 0; x < holdString.length; x++){\n\t\talert(holdString[x]);\n\t\tif(value === holdString[x]){\n\t\t\tholdString = holdString.replace(holdString[x],'');\n\t\t\talert(holdString);\n\t\t\treturn true;\n\t\t} \n\t}\n\treturn false;\n    }\n    document.write(bool);\n    ```\n\nwhich looks like:\n\n```javascript\nfunction cbFunc(value){\n\tfor(var x = 0; x < holdString.length; x++){\n\t\talert(holdString[x]);\n\t\tif(value === holdString[x]){\n\t\t\tholdString = holdString.replace(holdString[x],'');\n\t\t\talert(holdString);\n\t\t\treturn true;\n\t\t} \n\t}\n\treturn false;\n}\ndocument.write(bool); \n```\n\n### To add a table:\n\n    Colons can be used to align columns.\n    \n    | Tables        | Are           | Cool  |\n    | ------------- |:-------------:| -----:|\n    | col 3 is      | right-aligned | $1600 |\n    | col 2 is      | centered      |   $12 |\n    | zebra stripes | are neat      |    $1 |\n    \n    There must be at least 3 dashes separating each header cell.\n    The outer pipes (|) are optional, and you don't need to make the \n    raw Markdown line up prettily. You can also use inline Markdown.\n    \n    Markdown | Less | Pretty\n    --- | --- | ---\n    *Still* | `renders` | **nicely**\n    1 | 2 | 3\n\nwhich looks like\n\n| Tables        | Are           | Cool  |\n| ------------- |:-------------:| -----:|\n| col 3 is      | right-aligned | $1600 |\n| col 2 is      | centered      |   $12 |\n| zebra stripes | are neat      |    $1 |\n\nand\n\nMarkdown | Less | Pretty\n--- | --- | ---\n*Still* | `renders` | **nicely**\n1 | 2 | 3\n\n\n[intrapage link 1](Github-Wiki-Guide#Wiki Tips)\n\n[intrapage link 2](Github-Wiki-Guide# Wiki Tips)\n[intrapage link 3](Github-Wiki-Guide#Test_title)\n[intrapage link 4](Github-Wiki-Guide# Test_title)",
-			"file": "sandbox.wiki/Github-Wiki-Guide.md",
-			"file_size": 2289,
-			"file_write_time": 131259694076528385,
+			"file": "/D/Downloads/calibre/Unknown/CR!5X5J2T53T93Z346Y52MHBDNAJY9B.azw (4)/CR!5X5J2T53T93Z346Y52MHBDNAJY9B - Unknown.md",
 			"settings":
 			{
-				"buffer_size": 2202,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "tutorial_files/udemy_bootcamp/color_game/colorGame.css",
-			"settings":
-			{
-				"buffer_size": 210,
-				"line_ending": "Windows"
+				"buffer_size": 3821962,
+				"encoding": "Hexadecimal",
+				"line_ending": "Unix"
 			}
 		},
 		{
@@ -237,12 +229,20 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 392.0,
-		"last_filter": "",
+		"height": 137.0,
+		"last_filter": "instal",
 		"selected_items":
 		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Install Package Control"
+			]
 		],
-		"width": 392.0
+		"width": 428.0
 	},
 	"console":
 	{
@@ -265,17 +265,29 @@
 	],
 	"file_history":
 	[
+		"/C/Users/schrobot/Dropbox/github/Javascript30/02 - JS and CSS Clock/index-FINISHED.html",
+		"/C/Users/schrobot/Dropbox/github/sandbox/tutorial_files/udemy_bootcamp/score_keeper.html",
+		"/C/Users/schrobot/Dropbox/github/sandbox/tutorial_files/udemy_bootcamp/scorekeeper.js",
+		"/C/Users/schrobot/Dropbox/github/sandbox/sandbox.wiki/js/Array Methods/Array.prototype.map().md",
+		"/C/Users/schrobot/Dropbox/github/sandbox/sandbox.wiki/Github-Wiki-Guide.md",
+		"/C/Users/schrobot/Dropbox/github/sandbox/sandbox.wiki/js/Array Methods/Array.prototype.filter().md",
+		"/F/Media/Downloads/html5up-striped/test.html",
+		"/F/Media/Downloads/html5up-striped/index.html",
+		"/C/Users/schrobot/Dropbox/github/sandbox/sandbox.wiki/js/Array Methods/Array.prototype.every().md",
+		"/C/Users/schrobot/Dropbox/github/sandbox/sandbox.wiki/js/Array Methods/Array.prototype.some().md",
+		"/C/Users/schrobot/Dropbox/github/sandbox/sandbox.wiki/Home.md",
+		"/C/Users/schrobot/Dropbox/github/sandbox/tutorial_files/udemy_bootcamp/color_game/colorGame.css",
+		"/C/Users/schrobot/Dropbox/github/sandbox/sandbox.wiki/Projects/Color Game.md",
+		"/C/Users/schrobot/Dropbox/github/sandbox/tutorial_files/udemy_bootcamp/color_game/colorGame.js",
+		"/C/Users/schrobot/Dropbox/github/sandbox/tutorial_files/udemy_bootcamp/color_game/colorGame.html",
 		"/C/Users/schrobot/Dropbox/github/sandbox/sandbox.wiki/Color Game.md",
 		"/C/Users/schrobot/Dropbox/github/sandbox/tutorial_files/udemy_bootcamp/todo.css",
 		"/C/Users/schrobot/Dropbox/github/sandbox/sandbox.wiki/DOM-Events.md",
 		"/C/Users/schrobot/Dropbox/github/sandbox/tutorial_files/udemy_bootcamp/todo.html",
 		"/C/Users/schrobot/Dropbox/github/sandbox/tutorial_files/udemy_bootcamp/todo.js",
-		"/C/Users/schrobot/Dropbox/github/sandbox/tutorial_files/udemy_bootcamp/scorekeeper.js",
 		"/C/Users/schrobot/Dropbox/github/sandbox/sandbox.wiki/Score Keeper.md",
-		"/C/Users/schrobot/Dropbox/github/sandbox/tutorial_files/udemy_bootcamp/score_keeper.html",
 		"/C/Users/schrobot/Dropbox/github/sandbox/sandbox.wiki/_Sidebar.md",
 		"/C/Users/schrobot/Dropbox/github/sandbox/tutorial_files/udemy_bootcamp/scorekeeper.css",
-		"/C/Users/schrobot/Dropbox/github/sandbox/sandbox.wiki/Github-Wiki-Guide.md",
 		"/F/Media/Downloads/Score-Keeper-2/ScoreKeeper/scorekeeper.js",
 		"/C/Users/schrobot/Dropbox/github/sandbox/tutorial_files/udemy_bootcamp/dom_events.htm",
 		"/F/Media/Downloads/Score-Keeper-2/ScoreKeeper/ScoreKeeper.html",
@@ -283,7 +295,6 @@
 		"/C/Users/schrobot/Dropbox/github/sandbox/mess around2.htm",
 		"/C/Users/schrobot/Dropbox/github/sandbox/sandbox.wiki/Shortcuts.md",
 		"/C/Users/schrobot/Dropbox/github/sandbox/sandbox.wiki/DOM Events.md",
-		"/C/Users/schrobot/Dropbox/github/sandbox/sandbox.wiki/Home.md",
 		"/C/Users/schrobot/Dropbox/github/sandbox/index.html",
 		"/C/Users/schrobot/Dropbox/VS/Algorithms/FCC Basic/1 Reverse a string.htm",
 		"/C/Users/schrobot/Dropbox/github/sandbox/sandbox.wiki/test.md",
@@ -432,82 +443,24 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "tutorial_files/udemy_bootcamp/color_game/colorGame.html",
+					"file": "sandbox.wiki/js/Array Methods/Array.prototype.forEach().md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 484,
+						"buffer_size": 3390,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								484,
-								484
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "tutorial_files/udemy_bootcamp/color_game/colorGame.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 766,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								241,
-								241
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "sandbox.wiki/Projects/Color Game.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5818,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5770,
-								5770
+								1161,
+								763
 							]
 						],
 						"settings":
@@ -516,62 +469,32 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 201.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "sandbox.wiki/Github-Wiki-Guide.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2202,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2054,
-								2054
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 186.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "tutorial_files/udemy_bootcamp/color_game/colorGame.css",
+					"buffer": 1,
+					"file": "mess around2.htm",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 210,
+						"buffer_size": 8423,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								210,
-								189
+								551,
+								551
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -581,7 +504,65 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 2,
+					"file": "/C/Users/schrobot/Dropbox/github/chess_timer/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 727,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/D/Downloads/calibre/Unknown/CR!5X5J2T53T93Z346Y52MHBDNAJY9B.azw (4)/CR!5X5J2T53T93Z346Y52MHBDNAJY9B - Unknown.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3821962,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
 					"file": "sandbox.wiki/Shortcuts.md",
 					"semi_transient": false,
 					"settings":
@@ -605,7 +586,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
@@ -659,6 +640,34 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"map",
+				"sandbox.wiki\\js\\Array Methods\\Array.prototype.map().md"
+			],
+			[
+				"some",
+				"sandbox.wiki\\js\\Array Methods\\Array.prototype.some().md"
+			],
+			[
+				"filter",
+				"sandbox.wiki\\js\\Array Methods\\Array.prototype.filter().md"
+			],
+			[
+				"every",
+				"sandbox.wiki\\js\\Array Methods\\Array.prototype.every().md"
+			],
+			[
+				"ho",
+				"sandbox.wiki\\Home.md"
+			],
+			[
+				"mess",
+				"sandbox\\mess around2.htm"
+			],
+			[
+				"forea",
+				"sandbox.wiki\\js\\Array Methods\\Array.prototype.forEach().md"
+			],
 			[
 				"git",
 				"sandbox\\sandbox.wiki\\Github-Wiki-Guide.md"

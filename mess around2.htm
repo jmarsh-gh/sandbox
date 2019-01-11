@@ -6,48 +6,63 @@
     <title>Mess Around 2</title>
 </head>
 <body>
+<button onclick="setInterval(myFunction, 1000)">Try it</button>
+<p id="test">100</p>
+
 <script language="Javascript" type="text/javascript">
 
 
+var num = document.getElementById("test").innerText
 
-var sunny = ["Dennis", "Charlie", "Mac", "Frank", "Dee", "Cricket", "Waitress"];
+//document.getElementById("test").textContent = num;
 
-var reverseNames = [];
-
-reverseNames = sunny.map(function(currentName){
-	return currentName.split("").reverse().join("");
-});
-
-console.log(reverseNames);
-//["sinneD", "eilrahC", "caM", "knarF", "eeD", "tekcirC", "ssertiaW"]
-
-console.log(sunny);
-//["Dennis", "Charlie", "Mac", "Frank", "Dee", "Cricket", "Waitress"]
+function myFunction() {
+    document.getElementById("test").innerText -= 1;
+}
 
 
-var sunny = ["Dennis", "Charlie", "Mac", "Frank", "Dee", "Cricket", "Waitress"];
-
-var reverseNames = sunny.map(currentName => currentName.split("").reverse().join(""));
-
-console.log(reverseNames);
-//["sinneD", "eilrahC", "caM", "knarF", "eeD", "tekcirC", "ssertiaW"]
-
-console.log(sunny);
-//["Dennis", "Charlie", "Mac", "Frank", "Dee", "Cricket", "Waitress"]
+//sublime 11/01/2019 - desktop
 
 
-var numbers = [1, 2, 3, 4, 5];
-var moreNumbers = [6, 7, 8, 9, 10];
 
-function squareEachNumber(array){
-	return array.map(currentNumber => currentNumber * currentNumber);
-};
+// var sunny = ["Dennis", "Charlie", "Mac", "Frank", "Dee", "Cricket", "Waitress"];
 
-console.log(squareEachNumber(numbers));
-// [ 1, 4, 9, 16, 25 ]
+// var reverseNames = [];
 
-console.log(squareEachNumber(moreNumbers));
-// [ 36, 49, 64, 81, 100 ]
+// reverseNames = sunny.map(function(currentName){
+// 	return currentName.split("").reverse().join("");
+// });
+
+// console.log(reverseNames);
+// //["sinneD", "eilrahC", "caM", "knarF", "eeD", "tekcirC", "ssertiaW"]
+
+// console.log(sunny);
+// //["Dennis", "Charlie", "Mac", "Frank", "Dee", "Cricket", "Waitress"]
+
+
+// var sunny = ["Dennis", "Charlie", "Mac", "Frank", "Dee", "Cricket", "Waitress"];
+
+// var reverseNames = sunny.map(currentName => currentName.split("").reverse().join(""));
+
+// console.log(reverseNames);
+// //["sinneD", "eilrahC", "caM", "knarF", "eeD", "tekcirC", "ssertiaW"]
+
+// console.log(sunny);
+// //["Dennis", "Charlie", "Mac", "Frank", "Dee", "Cricket", "Waitress"]
+
+
+// var numbers = [1, 2, 3, 4, 5];
+// var moreNumbers = [6, 7, 8, 9, 10];
+
+// function squareEachNumber(array){
+// 	return array.map(currentNumber => currentNumber * currentNumber);
+// };
+
+// console.log(squareEachNumber(numbers));
+// // [ 1, 4, 9, 16, 25 ]
+
+// console.log(squareEachNumber(moreNumbers));
+// // [ 36, 49, 64, 81, 100 ]
 
 // var allLongNames = sunny.every(function(currentName){
 // 	return currentName.length > 5;
